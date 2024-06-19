@@ -8,3 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("La géolocalisation n'est pas disponible sur votre navigateur.");
     }
 });
+
+

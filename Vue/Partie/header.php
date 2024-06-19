@@ -15,19 +15,19 @@
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/Public/css/style.css" />
+    <link rel="stylesheet" href="../../../Nos-Artisans/Public/css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="header-logo">
-       <img src="/Public/images/log75.jpeg" alt="">
+       <img src="../../../Nos-Artisans/Public/images/log75.jpeg" alt="">
       </div>
       <nav class="nav">
         <ul class="nav-items">
           <li class="nav-item"><i class="fa fa-home" style='font-size:30px;color:#33383b'><a href="/index.php">Accueil</a></i></li>
           <li class="nav-item"><i class="fa fa-wrench" style='font-size:30px;color:red'><a href="#services">Nos services</a></i></li>
-          <li class="nav-item"><i class="fa fa-sign-in" style='font-size:30px;color:green'><a href="/Vue/Pages/login/login.php">Connexion</a></i></li>
+          <li class="nav-item"><i class="fa fa-sign-in" style='font-size:30px;color:green'><a href="../../../Nos-Artisans/Vue/Pages/login/login.php">Connexion</a></i></li>
         </ul>
       </nav>
       <section class="slider-container">
@@ -36,41 +36,41 @@
             <ul class="glide__slides">
               <li class="glide__slide">
                 <img
-                  src="/Public/images/artisans-garagiste.jpg"
+                  src="../../../Nos-Artisans/Public/images/artisans-garagiste.jpg"
                   alt="slide1"
                 />
                 <h4>Mécanicien</h4>
               </li>
               <li class="glide__slide">
-                <img src="/Public/images/artisans-couture.jpg"
+                <img src="../../../Nos-Artisans/Public/images/artisans-couture.jpg"
                      alt="slide1"
                 />
                 <h4>Couturier</h4>
               </li>
               <li class="glide__slide">
                 <img
-                  src="/Public/images/artisans-coiffure.jpg"
+                  src="../../../Nos-Artisans/Public/images/artisans-coiffure.jpg"
                   alt="slide1"
                 />
                 <h4>Coiffure</h4>
               </li>
               <li class="glide__slide">
                 <img
-                  src="/Public/images/artisans-plombier-1.jpg"
+                  src="../../../Nos-Artisans/Public/images/artisans-plombier-1.jpg"
                   alt="slide1"
                 />
                 <h4>Plomberie</h4>
               </li>
               <li class="glide__slide">
                 <img
-                  src="/Public/images/artisans-vitrerie.jpg"
+                  src="../../../Nos-Artisans/Public/images/artisans-vitrerie.jpg"
                   alt="slide1"
                 />
                 <h4>Vitrerie</h4>
               </li>
               <li class="glide__slide">
                 <img
-                  src="/Public/images/menuisier-3.jpg"
+                  src="../../../Nos-Artisans/Public/images/menuisier-3.jpg"
                   alt="slide1"
                 />
                 <h4>Menuiserie</h4>

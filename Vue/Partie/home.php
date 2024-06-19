@@ -5,7 +5,7 @@
     <section class="main-section">
         <div class="article">
             <div class="article-image">
-                <img src="/Public/images/Artisan-femme2.jpeg" alt="" />
+                <img src="../../../Nos-Artisans/Public/images/Artisan-femme2.jpeg" alt="" />
             </div>
             <div class="article-text">
                 <h2>Projet de rénovation</h2>
@@ -36,12 +36,12 @@
                 </p>
             </div>
             <div class="article-image">
-                <img src="/Public/images/bandeau3.jpg" alt="" />
+                <img src="../../../Nos-Artisans/Public/images/bandeau3.jpg" alt="" />
             </div>
         </div>
         <div class="article">
             <div class="article-image">
-                <img src="/Public/images/artisan-homme3.jpeg" alt="" />
+                <img src="../../../Nos-Artisans/Public/images/artisan-homme3.jpeg" alt="" />
             </div>
             <div class="article-text">
                 <h2>Projet de rénovation</h2>
@@ -71,7 +71,7 @@
                 </p>
             </div>
             <div class="article-image">
-                <img src="/Public/images/Plombier-Les-Pennes-Mirabeau-1.jpg" alt="" />
+                <img src="../../../Nos-Artisans/Public/images/Plombier-Les-Pennes-Mirabeau-1.jpg" alt="" />
             </div>
         </div>
         <!-- Partie pub -->
@@ -80,23 +80,23 @@
                 <h1>Zone de publicité</h1>
                     <ul class="recent__items">
                         <li class="recent__item">
-                            <img src="/Public/images/avatar-201113-98eba1e00d.png" alt="slide1" />
+                            <img src="../../../Nos-Artisans/Public/images/avatar-201113-98eba1e00d.png" alt="slide1" />
                             <h4>Mr kouassi(éléctricien) disponible 24/24 Abobo</h4>
                         </li>
                         <li class="recent__item">
-                            <img src="/Public/images/restaurant.png" alt="slide1" />
+                            <img src="../../../Nos-Artisans/Public/images/restaurant.png" alt="slide1" />
                             <h4>Nouveauté chez choco plus 50% de reduction</h4>
                         </li>
                         <li class="recent__item">
-                            <img src="/Public/images/avatar-201116-2cef22e841.png" alt="slide1" />
+                            <img src="../../../Nos-Artisans/Public/images/avatar-201116-2cef22e841.png" alt="slide1" />
                             <h4>Mécanicien disponible 24/24 Adjamé</h4>
                         </li>
                         <li class="recent__item">
-                            <img src="/Public/images/avatar-201118-42da66e7ac.png" alt="slide1" />
+                            <img src="../../../Nos-Artisans/Public/images/avatar-201118-42da66e7ac.png" alt="slide1" />
                             <h4>Ménuisier disponible 24/24 Yamoussoukro</h4>
                         </li>
                         <li class="recent__item">
-                            <img src="/Public/images/avatar-201116-59852aa383.png" alt="slide1" />
+                            <img src="../../../Nos-Artisans/Public/images/avatar-201116-59852aa383.png" alt="slide1" />
                             <h4>Mécanicien disponible 24/24 Adjamé</h4>
                         </li>
                     </ul>
@@ -162,7 +162,7 @@
         <br/>
         <div id="container" class="col-xs-3 col-sm-2 col-md-12">
             <div class="icon">
-                <img src="/Public/images/service-icon2.png"/>
+                <img src="../../../Nos-Artisans/Public/images/service-icon2.png"/>
                 <h3>Etape 1</h3>
                 <p>
                     Décrivez votre besoin, quelle
@@ -170,7 +170,7 @@
                 </p>
             </div>
             <div class="icon">
-                <img src="/Public/images/fact2.png"/>
+                <img src="../../../Nos-Artisans/Public/images/fact2.png"/>
                 <h3>Etape 2</h3>
                 <p>
                     Sélectionnez votre artisan,<br/>
@@ -181,7 +181,7 @@
                 </p>
             </div>
             <div class="icon">
-                <img src="/Public/images/fact1.png"/>
+                <img src="../../../Nos-Artisans/Public/images/fact1.png"/>
                 <h3>Etape 3</h3>
                 <p>
                     Après validation de la réservation,<br/> l'artisan réalise vos travaux, c'est simple, rapide et sécurisé.

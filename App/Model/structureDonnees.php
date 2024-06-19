@@ -1,2 +1,19 @@
-<?php
-//Modèles représentant la structure des données.
+CREATE DATABASE site_bd;
+
+USE site_bd;
+
+CREATE TABLE users (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nom_user VARCHAR(100) NOT NULL
+prenom_user VARCHAR(100) NOT NULL
+adresse_user VARCHAR(100) NOT NULL
+contact VARCHAR(100) NOT NULL
+pays VARCHAR(100) NOT NULL
+ville VARCHAR(100) NOT NULL
+metier VARCHAR(100) NOT NULL
+gpsData VARCHAR(100) NOT NULL
+password VARCHAR(255) NOT NULL,
+reset_token VARCHAR(255),
+created_At TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+updated_At TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
