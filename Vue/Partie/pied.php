@@ -4,7 +4,7 @@
 
         <p class="footer-links">
             <a href="#">Home</a>
-            <a href="#">Contact</a>
+            <a href="/Vue/Pages/contactez-nous/contact.php">Contact</a>
             <a href="#">Pub</a>
             <a href="#">About</a>
         </p>

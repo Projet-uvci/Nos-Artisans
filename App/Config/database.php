@@ -12,3 +12,4 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+// Fichier de connexion à la base de données.
