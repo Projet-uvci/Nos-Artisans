@@ -10,8 +10,12 @@ body {
 
 .header-logo {
   display: inline-block;
-  width: 90%;
+  /*width: 90%;*/
   padding: 10px 30px;
+}
+.header-logo img{
+  height : 70px;
+  border-radius: 100%
 }
 
 .header-logo a {
@@ -80,7 +84,7 @@ body {
 /* slider */
 .slider-container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/images/bnd1.jpg');
+    url('/Public/images/bnd1.jpg');
   height: 400px;
   display: flex;
   align-items: center;
@@ -152,13 +156,45 @@ body {
 .main-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 350px);
+  /*grid-template-rows: repeat(4, 350px);*/
   grid-gap: 20px;
   width: 98%;
   margin: auto;
   padding: 10px 0px;
 }
+/* Responsive design */
+@media screen and (max-width: 1200px) {
+  .main-section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
 
+  .SideBar {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .article {
+    flex-direction: column;
+  }
+
+  .article-image,
+  .article-text {
+    flex-basis: 100%;
+  }
+
+  .SideBar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
 .article {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -241,7 +277,7 @@ body {
   background-color: #ffff;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 200px 1fr 200px;
+  /*grid-template-rows: 200px 1fr 200px;*/
   justify-content: space-around;
 }
 
@@ -712,4 +748,8 @@ body {
 }
 .global-section-home{
   margin-bottom: 12rem;
+}
+figure h1{
+  color: white;
+  font-size: 50px;
 }
