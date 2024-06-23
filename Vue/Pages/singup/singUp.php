@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $message = "Registration successful! You will be redirected to the login page in 3 seconds.";
         echo "<script>
                 setTimeout(function() {
-                    window.location.href = '../login/login.php';
+                    window.location.href = '../../../Vue/Pages/login/login.php';
                 }, 3000);
               </script>";
     } else {
@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="form-container">
-        <form action="signup.php" method="post">
+        <form action="singUp.php" method="post">
             <h1>Inscription</h1>
             <input type="text" name="nom_user" placeholder="Nom" required>
             <input type="text" name="prenom_user" placeholder="Prenom" required>
