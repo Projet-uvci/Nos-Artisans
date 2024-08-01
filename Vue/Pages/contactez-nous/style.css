@@ -1,0 +1,123 @@
+
+
+.gdlr-core-pbf-wrapper {
+    padding: 90px 0px 35px 0px;
+    background-color: #ffffff;
+}
+
+.gdlr-core-pbf-wrapper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gdlr-core-pbf-wrapper-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gdlr-core-pbf-column {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.gdlr-core-pbf-column-content-margin {
+    padding: 20px;
+}
+
+.gdlr-core-title-item {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.gdlr-core-title-item-title {
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+.gdlr-core-title-item-title-divider {
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.gdlr-core-title-item-caption {
+    font-size: 19px;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #666;
+}
+
+.gdlr-core-contact-form-7-item {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gdlr-core-input-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gdlr-core-column-30 {
+    width: calc(50% - 10px);
+}
+
+.gdlr-core-column-60 {
+    width: 100%;
+}
+
+.wpcf7-form-control {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.wpcf7-submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wpcf7-submit:hover {
+    background-color: #555;
+}
+
+.clear {
+    clear: both;
+}
+
+#altEmail_container {
+    margin-top: 20px;
+}
+
+#altEmail_container label {
+    margin-right: 10px;
+}
+
+#altEmail_container input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wpa_hidden_field {
+    display: none;
+}

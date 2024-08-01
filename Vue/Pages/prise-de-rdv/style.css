@@ -1,0 +1,210 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.cart-table-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table-row-head {
+    font-weight: bold;
+    background: #4cb54d;
+}
+
+.cart-table-row-total {
+    font-weight: bold;
+}
+
+.cart-title {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.text-right {
+    text-align: right;
+}
+.text-danger {
+    color: red;
+}
+.text-right-center{
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-default {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-default:hover {
+    background-color: #218838;
+}
+
+label.required::after {
+    content: "*";
+    color: red;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="file"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.cart-title {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+
+.text-danger {
+    color: red;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-default {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-default:hover {
+    background-color: #218838;
+}
+
+label.required::after {
+    content: "*";
+    color: red;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="file"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .cart {
+        padding: 10px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-group .col-xs-12,
+    .form-group .col-md-5,
+    .form-group .col-md-7,
+    .form-group .col-lg-4,
+    .form-group .col-lg-8 {
+        width: 100%;
+    }
+}

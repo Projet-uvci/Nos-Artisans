@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/Public/images/artisan-mecanique1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    /*color: white !important;*/
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper {
+    font-family: "raleway", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background: #fafafa;*/
+}
+.wrapper h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(225,0,82);
+}
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+    color: rgb(233, 234, 229);
+}
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/marketing.jpg");
+    background-size: cover;
+}
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/dev.jpg");
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/bourse.jpg");
+    background-size: cover;
+}
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/dev.jpg");
+    background-size: cover;
+}
+.card:nth-child(5):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/affaire.jpg");
+    background-size: cover;
+}
+.card:nth-child(6):hover{
+    background: linear-gradient(45deg,
+    rgba(241, 45, 132, 0.78) 0%, rgba(205, 196, 205, 0.65) 100%),url("/Public/images/equipe.jpg");
+    background-size: cover;
+}
+/** responsive ***/
+
+@media (max-width: 991px) {
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-weight: 600;
+        font-size: 2.5em;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
