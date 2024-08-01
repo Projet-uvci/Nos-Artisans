@@ -1,116 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion d'Articles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 
-<main class="main">
-    <!-- Zone nos service -->
-    <h1 class="main-title">Nos services</h1>
-    <section class="main-section">
-        <div class="article">
-            <div class="article-image">
-                <img src="/Public/images/Artisan-femme2.jpeg" alt="" />
-            </div>
-            <div class="article-text">
-                <h2>Projet de rénovation</h2>
-                <p>
-                    Vous en avez marre de votre décor intérieur et/ou extérieur; vous
-                    souhaitez avoir une nouvelle apparence de votre maison ou bâtiment.
-                    Rassurez-vous, vous êtes au bon endroit nous avons la solution à vos
-                    problèmes.
-                </p>
-                <h2> Dépannage</h2>
-                <p>
-                    W.C bouché, climatisation en panne, plus de courant, etc. Pas de
-                    panique, LEBON ARTISAN se charge de vous trouver le bon professionnel
-                    pour vous dépanner en urgence.
-                </p>
-                <div class="comments"></div>
-            </div>
-        </div>
-        <div class="article">
-            <div class="article-text">
-                <h2>Maison du Menuisier </h2>
-                <p>
-                    Dans ce cas, l'espace entre l'unité de mesure et l'opérateur "-" est
-                    important pour que la fonction "calc" soit correctement interprétée
-                    par le navigateur web.Dans ce cas, l'espace entre l'unité de mesure et
-                    l'opérateur "-" est important pour que la fonction "calc" soit
-                    correctement interprétée par le navigateur web.
-                </p>
-            </div>
-            <div class="article-image">
-                <img src="/Public/images/bandeau3.jpg" alt="" />
-            </div>
-        </div>
-        <div class="article">
-            <div class="article-image">
-                <img src="/Public/images/artisan-homme3.jpeg" alt="" />
-            </div>
-            <div class="article-text">
-                <h2>Projet de rénovation</h2>
-                <p>
-                    Vous en avez marre de votre décor intérieur et/ou extérieur; vous
-                    souhaitez avoir une nouvelle apparence de votre maison ou bâtiment.
-                    Rassurez-vous, vous êtes au bon endroit nous avons la solution à vos
-                    problèmes.
-                </p>
-                <h2> Dépannage</h2>
-                <p>
-                    W.C bouché, climatisation en panne, plus de courant, etc. Pas de
-                    panique, LEBON ARTISAN se charge de vous trouver le bon professionnel
-                    pour vous dépanner en urgence.
-                </p>
-                <div class="comments"></div>
-            </div>
-        </div>
-        <div class="article">
-            <div class="article-text">
-                <h2>Plombier</h2>
-                <p>
-                    Vous envisagez de faire construire ou de rénover votre habitat ? Que
-                    vous ayez besoin de vous projeter, d’avoir des avis ou d’être
-                    accompagné par des professionnels de la menuiserie, Maison du
-                    Menuisier a toutes les solutions pour réaliser vos envies.
-                </p>
-            </div>
-            <div class="article-image">
-                <img src="/Public/images/Plombier-Les-Pennes-Mirabeau-1.jpg" alt="" />
-            </div>
-        </div>
-        <!-- Partie pub -->
-        <div class="SideBar">
-            <div class="recent">
-                <h1>Zone de publicité</h1>
-                    <ul class="recent__items">
-                        <li class="recent__item">
-                            <img src="/Public/images/avatar-201113-98eba1e00d.png" alt="slide1" />
-                            <h4>Mr kouassi(éléctricien) disponible 24/24 Abobo</h4>
-                        </li>
-                        <li class="recent__item">
-                            <img src="/Public/images/restaurant.png" alt="slide1" />
-                            <h4>Nouveauté chez choco plus 50% de reduction</h4>
-                        </li>
-                        <li class="recent__item">
-                            <img src="/Public/images/avatar-201116-2cef22e841.png" alt="slide1" />
-                            <h4>Mécanicien disponible 24/24 Adjamé</h4>
-                        </li>
-                        <li class="recent__item">
-                            <img src="/Public/images/avatar-201118-42da66e7ac.png" alt="slide1" />
-                            <h4>Ménuisier disponible 24/24 Yamoussoukro</h4>
-                        </li>
-                        <li class="recent__item">
-                            <img src="/Public/images/avatar-201116-59852aa383.png" alt="slide1" />
-                            <h4>Mécanicien disponible 24/24 Adjamé</h4>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-    </section>
-</main>
+</head>
+<style>
+    .slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
 
-<!--// le main prend en compte la partie pub-->
+    .slides {
+        display: flex;
+        transition: transform 1s ease-in-out;
+    }
 
-<!--// Zone des autres sections-->
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .slide img {
+        width: 100%;
+        /*height: 50%;*/
+        object-fit: cover;
+    }
+    .container2{
+        position: relative;
+        width: 100%;
+        min-height: 450px;
+        background-color: #f5f5f5;
+    }
+    .container2 .contents-wraper{
+        width: 70%;
+        min-height: inherit;
+        margin: 30px auto;
+        text-align: center;
+    }
+ .contents-wraper{
+     width: 70%;
+     min-height: inherit;
+     margin: 30px;
+     text-align: center;
+ }
+ .contents-wraper .header1 h1{
+    position: relative;
+     font-size: 40px;
+     text-transform: uppercase;
+     font-weight: 500;
+     text-align: center;
+     letter-spacing: 1px;
+ }
+    .contents-wraper .header1 h1::before{
+        content: '';
+        width: 200px;
+        height: 2px;
+        background-color: #006994;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10px;
+    }
+    .contents-wraper .testRow{
+        width: 100%;
+        min-height: inherit;
+        position: relative;
+        overflow: hidden;
+    }
+    .testRow .testItem{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testRow .testItem:not(.active){
+        top: 0;
+        left: -100%;
+    }
+    .testRow .testItem img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 5px;
+        outline:2px solid#006994;
+        outline-offset: 2px;
+    }
+    .testRow .testItem h3{
+        font-size:30px;
+        font-style: italic;
+        padding: 7px;
+    }
+    .testRow .testItem h4{
+        font-style: italic;
+    }
+    .testRow .testItem p{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1;
+        padding: 10px;
+    }
+    .contents-wraper .indicators{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px;
+        cursor: pointer;
+    }
+    .contents-wraper .indicators .dot{
+        width: 15px;
+        height: 15px;
+        margin: 0 3px;
+        border: 3px solid #aaa;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.5s ease;
+    }
+    .contents-wraper .indicators .active{
+        background-color: #006994;
+    }
+    @keyframes next1 {
+        from{
+            left: 0;
+        }
+        to{
+            left: -100%;
+        }
+
+    }
+    @keyframes next2 {
+        from{
+            left: 100%;
+        }
+        to{
+            left: 0;
+        }
+
+    }
+    @keyframes prev1 {
+        from{
+            left: 0;
+        }
+        to{
+            left: 100%;
+        }
+
+    }
+    @keyframes prev2 {
+        from{
+            left: -100%;
+        }
+        to{
+            left: 0;
+        }
+
+    }
+    @media (max-width: 550px) {
+        .container2 .contents-wraper{
+            width: 90%;
+        }
+        .contents-wraper .header1 h1{
+            font-size: 32px;
+        }
+        .testRow .testItem h3{
+            font-size: 26px;
+        }
+        .testRow .testItem p{
+            font-size: 16px;
+            letter-spacing: initial;
+            line-height: initial;
+        }
+
+    }
+</style>
+<body>
 <section style="background: #f5f6f2;">
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-       <h1 style="color: green">Pourquoi nous choisir ?</h1>
+        <h1 style="color: green">Pourquoi nous choisir ?</h1>
 
         <p>
             Nous savons qu'il n'est toujours pas aussi simple de trouver un bon artisan pour vos travaux.
@@ -153,7 +229,7 @@
 </section>
 <section style="background: #ffffff;">
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-       <h1 style="color: green">Comment fonctionne le service pour vous ?</h1>
+        <h1 style="color: green">Comment fonctionne le service pour vous ?</h1>
         <p>
             Désormais, plus bésoin de vous déplacer pour trouver un artisan pour vos travaux d'installations, nous avons référencer pour vous, près de vous les bons professionnels pour vous dépanner.
             Obtenez tout le savoir-faire de nos professionnels à des prix bas pour tout type de prestation.
@@ -166,7 +242,7 @@
                 <h3>Etape 1</h3>
                 <p>
                     Décrivez votre besoin, quelle
-                   prestation souhaitez vous !
+                    prestation souhaitez vous !
                 </p>
             </div>
             <div class="icon">
@@ -190,6 +266,75 @@
         </div>
     </div>
 </section>
+<div class="container2">
+    <div class="contents-wraper">
+        <section class="header1"><h1>Témoignages</h1></section>
+        <section class="testRow">
+            <div class="testItem active">
+                <img src="/Public/images/loba.png" alt="Image 1"/>
+                <h3>Mr. Loba</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+            <div class="testItem">
+                <img src="/Public/images/Esli%20Joed.png" alt="Image 2"/>
+                <h3>Esli Joed</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+            <div class="testItem">
+                <img src="/Public/images/Jean%20Martial.png" alt="Image 1"/>
+                <h3>Jean Martial</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+            <div class="testItem">
+                <img src="/Public/images/konaté.png" alt="Image 1"/>
+                <h3>Md. Konaté</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+            <div class="testItem">
+                <img src="/Public/images/benjamen.png" alt="Image 1"/>
+                <h3>Mr. Benjamin kouassi</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+            <div class="testItem">
+                <img src="/Public/images/coulibaly.png" alt="Image 1"/>
+                <h3>Mr. coulibaly</h3>
+                <h4>Abidjan, Côte D'Ivoire</h4>
+                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
+                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
+                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                </p>
+            </div>
+        </section>
+        <section class="indicators">
+            <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+            <div class="dot" attr='1' onclick="switchTest(this)"></div>
+            <div class="dot" attr='2' onclick="switchTest(this)"></div>
+            <div class="dot" attr='3' onclick="switchTest(this)"></div>
+            <div class="dot" attr='4' onclick="switchTest(this)"></div>
+            <div class="dot" attr='5' onclick="switchTest(this)"></div>
+        </section>
+    </div>
+</div>
 <section class="slider-container">
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
         <figure class="max-w-screen-md mx-auto">
@@ -198,11 +343,91 @@
         </figure>
     </div>
 </section>
-<section style="background: #ffffff;">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-        <figure class="max-w-screen-md mx-auto">
-           <h3>ajouter des sections si possible</h3>
-        </figure>
+<br>
+<br>
+<section class="slide-section">
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="/Public/images/E75-3.png" alt="Image 1"/></div>
+            <div class="slide"><img src="/Public/images/pub1.1.jpeg" alt="Image 2"/></div>
+        </div>
+        <button class="prev" onclick="showPrevSlide()">&#10094;</button>
+        <button class="next" onclick="showNextSlide()">&#10095;</button>
     </div>
 </section>
-<!--// ajouter des sections si possible-->
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const delay = 3000; // 50 secondes
+
+    function showNextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        document.querySelector('.slides').style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    setInterval(showNextSlide, delay);
+
+    function showPrevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSlidePosition();
+    }
+    let testSlide = document.querySelectorAll('.testItem');
+    let dots = document.querySelectorAll('.dot');
+    var counter =0;
+    function switchTest(currentTest){
+        currentTest.classList.add('active')
+        var testId = currentTest.getAttribute('attr');
+        if (testId> counter){
+            testSlide[counter].style.animation ='next1 0.5s ease-in forwards';
+            counter = testId;
+            testSlide[counter].style.animation ='next2 0.5s ease-in forwards';
+        }else if (testId === counter){return;}
+        else {
+            testSlide[counter].style.animation ='prev1 0.5s ease-in forwards';
+            counter = testId;
+            testSlide[counter].style.animation ='prev2 0.5s ease-in forwards';
+        }
+        indicators();
+    }
+    function indicators(){
+        for (i = 0; i <dots.length; i++){
+            dots[i].className = dots[i].className.replace(' active', '');
+        }
+        dots[counter].className += ' active';
+
+    }
+    function slideNext(){
+        testSlide[counter].style.animation ='next1 0.5s ease-in forwards';
+        if (counter >= testSlide.length -1){
+            counter = 0
+        }
+        else {
+            counter++;
+        }
+        testSlide[counter].style.animation ='next2 0.5s ease-in forwards';
+        indicators();
+    }
+    function autoSliding(){
+        deletIntInterval = setInterval(timer, 2000);
+        function timer(){
+            slideNext();
+            indicators();
+        }
+    }
+    autoSliding();
+    const container = document.querySelector('.indicators');
+    container.addEventListener('mouseover', pause);
+    function  pause(){
+        clearInterval(deletIntInterval);
+    }
+    container.addEventListener('mouseout', autoSliding);
+    // function updateSlidePosition() {
+    //     document.querySelector('.slides').style.transform = `translateX(-${currentIndex * 100}%)`;
+    // }
+    //
+    // setInterval(showNextSlide, 3000); // Change slide every 3 seconds
+</script>
+</body>
+</html>
+

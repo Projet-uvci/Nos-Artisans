@@ -1,15 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "site_bd";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    // pour la base de données en ligne ( non utilisateur:370480_entrp75, mot de passe: re2A7_RLeKTDn63) lien:https://phpmyadmin.alwaysdata.com/
+    $connexion = new PDO('mysql:host=localhost;dbname=site_bd', 'root', 'Entreprise75!');
+    $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Erreur de connexion : " . $e->getMessage();
 }
 ?>
-// Fichier de connexion à la base de données.

@@ -1,43 +1,48 @@
-<footer class="footer-distributed" style="padding: 30px;">
-    <div class="footer-left">
-        <h3>Pour nos <span>Artisans</span></h3>
-
-        <p class="footer-links">
-            <a href="#">Home</a>
-            <a href="/Vue/Pages/contactez-nous/contact.php">Contact</a>
-            <a href="#">Pub</a>
-            <a href="#">About</a>
-        </p>
-
-        <p class="footer-company-name">Copyright © 2024<strong>Artisans</strong>All right reserved</p>
-
-    </div>
-    <div class="footer-center">
-        <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>Ange</span>Anisco</p>
+<footer class="footer-area" style="padding: 30px;">
+    <div class="main1">
+        <div class="footer">
+            <div class="single-footer">
+                <h3>Apropos de nous</h3>
+                    <p><strong>L'entreprise 75</strong> est le fruit de jeunes entrepreneurs passionnés par l'entreprenariat et de l'innovation des TIC et qui ont
+                        décidés de contribuer au développement de leur pays. Jeunes ambitieux, courageux, travaileurs et dévouer à la réussite ont decidés d'unir leurs forces
+                        et leurs compétences afin de mettre à la disposition des populations des services dont la néccessité et l'utilité sont indispansable. Notre objectif est d'apporter
+                        des solutions à des besoins sociaux de nos communautés en vue d'apporter un changement dans les conditions de vies de nos populations.
+                    </p>
+                <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61561549792452&mibextid=ZbWKwL" target='_blank'><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="single-footer">
+                <h4>menu principal</h4>
+                <ul>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> home</a></li>
+                    <li><a href="/Vue/Pages/nos-services/service.php"><i class="fa fa-chevron-right"></i> nos services</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> publicités des artisans</a></li>
+                    <li><a href="/Vue/Pages/contactez-nous/contact.php"><i class="fa fa-chevron-right"></i> contactez-nous</a></li>
+                </ul>
+            </div>
+            <div class="single-footer">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Politique De Confidentialité</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right"></i> Termes Et Conditions</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right"></i>Avertissement</a></li>
+                </ul>
+            </div>
+            <div class="single-footer">
+                <h4>Contactez-Nous</h4>
+                <ul>
+                    <li><a href=""><i class="fa fa-map-marker"></i> Rue 12 Habitat,Yamoussoukro, Côte D'Ivoire</a></li>
+                    <li><a href=""><i class="fa fa-phone"></i> +225 0759681137</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i> entreprise75uvci@gmail.com</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <i class="fa fa-phone"></i>
-            <p>+225 0759681137</p>
-        </div>
-        <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="#">angeanisco@gmail.com</a></p>
-        </div>
-    </div>
-    <div class="footer-right">
-        <p class="footer-company-about">
-            <span>Apropos de l'application</span>
-            <strong>Artisans</strong>à été mise en place pour aider les
-            nos différents clients dans le processuse de faire connaitre leurs
-            activité.
-        </p>
-        <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-youtube"></i></a>
+        <div class="copy">
+            <p style="text-align:center">&copy; 2024  <strong> L'ENTREPRISE 75</strong> - Tous Droits Réservés</p>
         </div>
     </div>
 </footer>

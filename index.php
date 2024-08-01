@@ -1,5 +1,13 @@
-<?php include 'Vue/Partie/header.php'; ?>
-<?php include 'Vue/Partie/home.php'; ?>
-<?php include 'Vue/Partie/pied.php'; ?>
+<?php
+session_start();
 
-<!--// refaire si possible l'architecture-->
+if (!isset($_SESSION['visited'])) {
+    $_SESSION['visited'] = true;
+    header('Location: anime_page.php');
+    exit;
+}
+
+include 'Vue/Partie/header.php';
+include 'Vue/Partie/home.php';
+include 'Vue/Partie/pied.php';
+
