@@ -274,54 +274,21 @@
                 <img src="/Public/images/loba.png" alt="Image 1"/>
                 <h3>Mr. Loba</h3>
                 <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                <p> Le service des artisans est impeccable, merci de nous faciliter la tâche avec cette application
                 </p>
             </div>
             <div class="testItem">
                 <img src="/Public/images/Esli%20Joed.png" alt="Image 2"/>
                 <h3>Esli Joed</h3>
                 <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
-                </p>
-            </div>
-            <div class="testItem">
-                <img src="/Public/images/Jean%20Martial.png" alt="Image 1"/>
-                <h3>Jean Martial</h3>
-                <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
-                </p>
-            </div>
-            <div class="testItem">
-                <img src="/Public/images/konaté.png" alt="Image 1"/>
-                <h3>Md. Konaté</h3>
-                <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
-                </p>
-            </div>
-            <div class="testItem">
-                <img src="/Public/images/benjamen.png" alt="Image 1"/>
-                <h3>Mr. Benjamin kouassi</h3>
-                <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                <p> J'ai trouvé un excellent plombier en quelques minutes grâce à Artisan Services. Service vraiment utile!"
                 </p>
             </div>
             <div class="testItem">
                 <img src="/Public/images/coulibaly.png" alt="Image 1"/>
                 <h3>Mr. coulibaly</h3>
                 <h4>Abidjan, Côte D'Ivoire</h4>
-                <p> La publicité met en avant la modernité et la jeunesse. Ces deux piliers étant porteurs
-                    d’avenir, l’agence a mis en valeur certains éléments. Les graphiques, les couleurs et les
-                    scénarios sont associés pour montrer l’appartenance de la banque à la société actuelle.
+                <p> Service client impeccable et artisans compétents. Je suis très satisfait de mes expériences jusqu'à présent."
                 </p>
             </div>
         </section>
@@ -329,9 +296,6 @@
             <div class="dot active" attr='0' onclick="switchTest(this)"></div>
             <div class="dot" attr='1' onclick="switchTest(this)"></div>
             <div class="dot" attr='2' onclick="switchTest(this)"></div>
-            <div class="dot" attr='3' onclick="switchTest(this)"></div>
-            <div class="dot" attr='4' onclick="switchTest(this)"></div>
-            <div class="dot" attr='5' onclick="switchTest(this)"></div>
         </section>
     </div>
 </div>
@@ -348,8 +312,9 @@
 <section class="slide-section">
     <div class="slider">
         <div class="slides">
-            <div class="slide"><img src="/Public/images/E75-3.png" alt="Image 1"/></div>
-            <div class="slide"><img src="/Public/images/pub1.1.jpeg" alt="Image 2"/></div>
+            <div class="slide"><img src="/Public/images/pub5.jpeg" alt="Image 1"/></div>
+            <div class="slide"><img src="/Public/images/pub3.jpeg" alt="Image 2"/></div>
+            <div class="slide"><img src="/Public/images/pub4.jpeg" alt="Image 3"/></div>
         </div>
         <button class="prev" onclick="showPrevSlide()">&#10094;</button>
         <button class="next" onclick="showNextSlide()">&#10095;</button>

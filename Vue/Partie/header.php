@@ -1,8 +1,4 @@
 
-<?php
-session_start();
-
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -56,24 +52,23 @@ session_start();
                     </a>
                 </li>
             <?php endif; ?>
-        </ul>
-        <div class="icon-flex-end">
-            <?php if (isset($_SESSION['pseudo'])): ?>
-                <div class="user-icon">
-                    <img src="/Public/images/laptop-user.png" alt="Icône Utilisateur">
-                    <div class="popup">
-                        <div class="popup-content">
-                            <div class="user-name"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></div>
-                            <div class="user-email">anicet.kouassi@gmail.com</div>
-                            <div class="menu-options">
-                                <a href="/Vue/Pages/user/users.php">Profil</a>
-                                <a href="/Vue/Pages/deconnection/deconnection.php">Déconnexion</a>
+            <li class="nav-item-icon">
+                <?php if (isset($_SESSION['pseudo'])): ?>
+                    <div class="user-icon">
+                        <img src="/Public/images/laptop-user.png" alt="Icône Utilisateur">
+                        <div class="popup">
+                            <div class="popup-content">
+                                <div class="user-name"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></div>
+                                <div class="menu-options">
+                                    <a href="/Vue/Pages/user/users.php">Profil</a>
+                                    <a href="/Vue/Pages/deconnection/deconnection.php">Déconnexion</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            <?php endif; ?>
-        </div>
+                <?php endif; ?>
+            </li>
+        </ul>
     </nav>
     <section class="slider-container">
         <div class="glide">

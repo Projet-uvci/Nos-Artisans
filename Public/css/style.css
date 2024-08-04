@@ -63,6 +63,12 @@ body {
   font-weight: 600;
   margin-left: 8px; /* Adds space between icon and text */
 }
+.nav-item-icon a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 8px; /* Adds space between icon and text */
+}
 
 .icon-flex-end {
   display: flex;
@@ -94,7 +100,7 @@ body {
 .popup {
   position: absolute;
   top: calc(100% + 10px);
-  left: 0;
+  left: -50px;
   z-index: 1000;
   width: 250px; /* Ajustez la largeur du popup selon vos besoins */
   background-color: #fff;
